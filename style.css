@@ -1,0 +1,79 @@
+body{
+    background: -webkit-linear-gradient(bottom, #e62d2d, #48dddd);
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    font-weight:bolder;
+    color:rgb(59, 59, 59);
+    background-size: 50%;
+}
+h2{
+    text-align: center;
+    font-weight: 50px;
+    color: rgb(230, 53, 53);
+}
+
+
+.cek{
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+    color:rgb(59, 59, 59);
+}
+
+
+.kotak_cek{
+    backface-visibility: visible;
+    border-radius: 8px;
+    width: 350px;
+    background: #c7c7c7;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    filter: opacity(95%);
+    margin: 90px auto;
+    padding: 20px 20px;
+}
+
+form{
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+label{
+    font-size: 15px;
+    font-stretch: extra-condensed;
+}
+
+.asal{
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+
+.berat_brg{
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.tombol{
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 10px;
+    background:#0c60fc;
+    font-size: 11pt;
+    width: 60%;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+
+.tombol:hover{
+    border-radius: 10px;
+    transition: 2ms;
+    animation-duration: 2ms;
+    background-color: #22a4cf;
+    border:solid rgb(0, 255, 200);
+}
